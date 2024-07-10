@@ -15,4 +15,11 @@ class TrainController extends Controller
         $treni = Train::whereDate('orario_di_partenza', '>=', $oggi)->get();
         return view('index', compact('treni'));
     }
+
+    public function show($id)
+    {
+        $treno = Train::findOrFail($id);
+
+        return view('show', compact('treno'));
+    }
 }

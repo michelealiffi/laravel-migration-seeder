@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Train extends Model
 {
     use HasFactory;
+
+    protected $table = 'trains';
+
     protected $fillable = [
         'azienda',
         'stazione_di_partenza',

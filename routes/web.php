@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Guest\TrainController;
 
 Route::get('/', [TrainController::class, 'index']);
+Route::get('/treni/{id}', [TrainController::class, 'show'])->name('treni.show');

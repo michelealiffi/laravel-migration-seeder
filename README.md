@@ -15,6 +15,12 @@ Cancellato
 Inserite inizialmente i dati tramite PhpMyAdmin.
 Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
 
+2. continuate l'esercitazione di ieri (trains):
+fate una revisione del vostro codice con quanto visto questa mattina a lezione;
+create un seeder per popolare la vostra tabella con almeno 50 treni utilizzando Faker.
+Bonus:
+utilizzando lo stesso layout, provate a creare una pagina di dettaglio del treno, raggiungibile cliccando sulla card nell'elenco dei treni in partenza.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
